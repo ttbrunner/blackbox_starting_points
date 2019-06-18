@@ -26,5 +26,5 @@ Usage:
 4. Find detailed output in the `out_imagenet_bench`. For every run, all successful steps are logged, so you can watch the current progress at all times.
    
 
-Concerning hyperparameters: The source code has "MODIFIED:" markers, which explain the changes we made to the biased Boundary Attack and its hyperparameters, differing from the ones originally used by Brunner et al.
+Concerning hyperparameters: The source code has "MODIFIED:" markers, which explain the changes we made to the biased Boundary Attack and its hyperparameters, differing from the original version in [https://github.com/ttbrunner/biased_boundary_attack](https://github.com/ttbrunner/biased_boundary_attack).
 
