@@ -160,7 +160,7 @@ class StartingPointFinder:
                     saliency_mask_gray = saliency_mask_gray ** 0.75
                 if i_try >= 3:
                     saliency_mask_gray += 0.1 * i_try
-                if i_try == n_tries < 1:
+                if i_try == n_tries - 1:
                     saliency_mask_gray = np.ones_like(saliency_mask_gray)
 
                 saliency_mask_gray = saliency_mask_gray ** 0.55

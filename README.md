@@ -19,7 +19,7 @@ Usage:
    
 3. Start the main benchmark. 
     
-    `python3 precalc_saliency_maps.py`
+    `python3 run_imagenet_bench.py`
     
    Our implementation of the Boundary Attack does **not** batch requests to the black box, in order to mimic a real attack and keep queries minimal. This also means that the attacks are pretty slow - expect a minute or two for a single image. Again, you can run multiple instances in parallel from the same directory.
    
